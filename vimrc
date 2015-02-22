@@ -1,7 +1,11 @@
 " Setup
-set nocompatible
-set t_Co=256
-colorscheme desert
+set shell=/bin/bash                     " Enable shell
+execute pathogen#infect()
+set nocompatible                        " Never start compatible mode
+set t_Co=256                            " 256 colors
+set wildmenu                            " Visual command autocomplete
+colorscheme Revolution
+highlight SignColumn ctermbg=black
 
 " Search highlighting
 set nohlsearch
@@ -13,6 +17,7 @@ set ruler
 " Line numbers
 set number
 set relativenumber
+set cursorline
 
 " Indent as spaces
 set expandtab
