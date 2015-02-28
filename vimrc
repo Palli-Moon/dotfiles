@@ -27,6 +27,7 @@ set smartindent
 
 " 2 spaces for javacsript
 autocmd FileType javascript setlocal expandtab shiftwidth=2 softtabstop=2
+autocmd BufRead,BufNewFile *.purs set expandtab shiftwidth=2 softtabstop=2
 
 " F12 to toggle pastemode
 set pastetoggle=<F12>
