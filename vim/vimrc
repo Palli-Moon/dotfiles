@@ -7,9 +7,6 @@ set wildmenu                            " Visual command autocomplete
 colorscheme Revolution
 highlight SignColumn ctermbg=black
 
-" Enable mouse
-set mouse=a
-
 " Search highlighting
 set nohlsearch
 set incsearch
